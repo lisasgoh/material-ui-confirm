@@ -31,7 +31,7 @@ const ConfirmationDialog = ({ open, options, onCancel, onConfirm, onClose }) => 
         <Button {...cancellationButtonProps} onClick={onCancel}>
           {cancellationText}
         </Button>
-        <Button color="primary" {...confirmationButtonProps} onClick={onConfirm}>
+        <Button {...confirmationButtonProps} onClick={onConfirm}>
           {confirmationText}
         </Button>
       </DialogActions>
